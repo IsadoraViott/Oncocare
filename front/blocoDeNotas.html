@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloco de Notas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bloco.css">
+    <link rel="stylesheet" href="./css/principal.css">
+</head>
+
+<body>
+    <div class="tela">
+        <div class="header">
+            <h1>ONCOCARE</h1>
+
+            <a href="./perfil.html" id="img-redirecionar"><img src="./assents/Component 29.png" alt=""></a>
+        </div>
+        <div class="header-hoje">
+            <h2>Bloco de Notas</h2>
+        </div>
+
+        <div id="corpo">
+            <div id="corpo_titulo">
+                <h2 id="titulo-notas">Minhas notas:</h2>
+            </div>
+
+            <div id="notas"></div>
+
+            <div id="botao_div">
+                <button onclick="adicionar()"><img src="./assents/simple-line-icons_plus.png" class="img-mais"
+                        alt=""></button>
+            </div>
+
+            <div class="form-box" id="form_notas">
+                <div class="form-box-cima">
+                    <h2>Adicionar Nota</h2> 
+                    <p onclick="fecharNota()">X</p>
+                </div>
+                <form id="addNota">
+                    <label for="titulo">Titúlo</label>
+                    <input type="text" id="titulo" name="titulo">
+
+                    <button type="button" onclick="adicionarNota()">Adicionar</button>
+
+                </form>
+            </div>
+
+        </div>
+
+
+        <footer>
+            <a href="./principal.html"><img src="./assents/Component 13.png" alt="" class="img-icones" id="img-redirecionar"></a>
+            <img src="./assents/conteudos.png" alt="" class="img-icones">
+            <img src="./assents/mapa.png" alt="" class="img-icones">
+            <img src="./assents/mensagem.png" alt="" class="img-icones">
+            <a href="./agenda.html"><img src="./assents/agenda.png" alt="" class="img-icones" id="img-redirecionar"></a>
+        </footer>
+    </div>
+
+</body>
+
+<script src="./js/notas/notas.js"></script>
+<script src="./js/notas/addNotas.js"></script>
+
+</html>

@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.julius-sans-one-regular {
+    font-family: "Julius Sans One", sans-serif;
+    font-style: normal;
+  }
+  
+/* body   */
+
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+/* tela  */
+
+.tela{
+    border: 1px solid black;
+    width: 360px;
+    height: 760px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.oncocare{
+    margin-bottom: 10%;
+}
+
+.welcome{
+    margin-top: 30%;
+}
+
+/* fontes  */
+
+h1{
+    color: #ffff;
+    letter-spacing: 3px;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+h2{
+    color: #ffff;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+
+h3{
+    color: #ffff;
+    letter-spacing: 3px;
+    font-weight: 200;
+}
+
+/* flor  */
+
+.flor{
+    margin-left: 66%;
+}
+
+/* botao  */
+
+.botao{
+    margin-top: 5%;
+    margin-bottom: 20%;
+}
+
+/* header  */
+
+.header{
+    background-color: #FBC0C0;
+    width: 96%;
+    height: 8%;
+    padding: 2%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img{
+    width: 15%;
+}
+
+.header-hoje{
+    background-color: #FB8DA0;
+    height: 5%;
+    width: 94%;
+    padding: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+ 
+
+/* footer  */
+
+footer{
+    background-color: #FBC0C0;
+    height: 8%;
+    width: 94%;
+    padding: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.img-icones{
+    width: 18%;
+}
+
+
+#titulo-notas{
+    color: #FB6C90;
+    letter-spacing: 1px;
+    font-weight: 200;
+    margin-left: 5%;
+    font-size: 240%;
+}
+
+.titulo-das-notas{
+    color: #FB6C90;
+    letter-spacing: 1px;
+}
+
+/* corpo  */
+
+#corpo{
+    height: 79%;
+    width: 100%;
+}
+
+.fundo-notas{
+    background-color: #FBC0C0;
+    width: 120%;
+    padding: 10%;
+    border-radius: 20px;
+    margin-bottom: 10%;
+}
+
+#notas{
+    width: 45%;
+    height: 65%;
+    margin-left: 6%;
+}
+
+#botao_div{
+    display: flex;
+    justify-content: end;
+}
+
+#corpo_titulo{
+    padding-top: 10%;
+    height: 10%;
+}
+
+/* form notas  */
+
+.form-box {
+    background-color: #FB8DA0;
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+    
+    position: fixed; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    visibility: hidden;
+    z-index: 1000; 
+}
+  
+
+.form-box h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.form-box-cima{
+    display: flex;
+    justify-content: space-between;
+}
+
+p{
+    color: #ffff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  text-align: left;
+  color: white;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+input {
+  padding: 8px;
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.img-mais{
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+ 

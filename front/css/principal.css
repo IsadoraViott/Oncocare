@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.julius-sans-one-regular {
+    font-family: "Julius Sans One", sans-serif;
+    font-style: normal;
+  }
+  
+/* body   */
+
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+/* tela  */
+
+.tela{
+    border: 1px solid black;
+    width: 360px;
+    height: 760px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.oncocare{
+    margin-bottom: 10%;
+}
+
+.welcome{
+    margin-top: 30%;
+}
+
+/* fontes  */
+
+h1{
+    color: #ffff;
+    letter-spacing: 3px;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+h2{
+    color: #ffff;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+
+h3{
+    color: #ffff;
+    letter-spacing: 3px;
+    font-weight: 200;
+}
+
+/* flor  */
+
+.flor{
+    margin-left: 66%;
+}
+
+/* botao  */
+
+.botao{
+    margin-top: 5%;
+    margin-bottom: 20%;
+}
+
+/* header  */
+
+.header{
+    background-color: #FBC0C0;
+    width: 96%;
+    height: 8%;
+    padding: 2%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_perfil{
+    background-color: #FBC0C0;
+    width: 96%;
+    height: 8%;
+    padding: 2%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 75%;
+}
+
+.header-hoje{
+    background-color: #FB8DA0;
+    height: 5%;
+    width: 94%;
+    padding: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+ 
+/* corpo  */
+
+#corpo{
+    height: 79%;
+    overflow: auto;
+}
+
+/* footer  */
+
+footer{
+    background-color: #FBC0C0;
+    height: 8%;
+    width: 94%;
+    padding: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.img-icones{
+    width: 18%;
+}
+
+#img-redirecionar{
+    width:100%;
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+    width:18%;
+    height:auto;
+}
+
+

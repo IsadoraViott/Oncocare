@@ -1,0 +1,92 @@
+.titulo-das-notas{
+    color: #FB6C90;
+    letter-spacing: 1px;
+}
+
+#corpo_perfil{
+    width: 100%;
+    height: 70%;
+    margin-top: 10%;
+}
+
+.voltar_sair{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.mae_voltar_sair{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 20%;
+    justify-content: center;
+}
+
+.img_perfil{
+    width: 130%;
+}
+
+#img_pessoa{
+    width: 35%;
+}
+
+.div_foto{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+img{
+    width:10%;
+}
+
+#mae_componentes{
+    display: flex;
+    width: 100%;
+}
+
+.componentes{
+    width: 60%;
+    padding: 3%;
+    display: flex;
+    align-items: center;
+    background-color: #FBC0C0;
+    border-radius: 20px;
+    justify-content: space-between;
+    margin-top: 8%;
+    margin-left: 20%;
+}
+
+.componentes_02{
+    width: 80%;
+    padding: 3%;
+    display: flex;
+    align-items: center;
+    background-color: #FBC0C0;
+    border-radius: 20px;
+    justify-content: space-between;
+    margin-top: 8%;
+    margin-left: 10%;
+}
+
+.componentes_03{
+    width: 80%;
+    padding: 3%;
+    display: flex;
+    align-items: center;
+    background-color: #FBC0C0;
+    border-radius: 20px;
+    justify-content: center;
+    margin-top: 8%;
+    margin-left: 10%;
+}
+
+
+

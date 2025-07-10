@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="tela">
+        <div class="flor">
+            <img src="assents/ph_flower-thin.png" alt="">
+        </div>
+        <div>
+            <div class="oncocare">
+                <h1>ONCOCARE</h1>
+            </div>
+        </div>
+        <div>
+            <h2>Login da conta</h2>
+        </div>
+        <div>
+            <form id="login">
+                <div class="cadastro_form">
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="nome" name="nome" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha" required>
+                </div>
+                <div class="cadastro-button">
+                    <a onclick="redirecionar()"><button><h3>Criar Conta</h3></button></a>
+                    <a><button type="submit"><h3>Entrar</h3></button></a>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</body>
+<script src="./js/usuario/login.js"></script>
+</html>

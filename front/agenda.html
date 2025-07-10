@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bloco.css">
+    <link rel="stylesheet" href="./css/principal.css">
+    <link rel="stylesheet" href="./css/agenda.css">
+</head>
+
+<body>
+    <div class="tela">
+        <div class="header">
+            <h1>ONCOCARE</h1>
+
+            <a href="./perfil.html" id="img-redirecionar"><img src="./assents/Component 29.png" alt=""></a>
+        </div>
+        <div class="header-hoje">
+            <h2>Agenda</h2>
+        </div>
+
+        <div id="corpo" style="display: flex;
+        flex-direction: column; align-items: center;">
+
+            <div class="calendario">
+                <div class="cabecalho">
+                    <span id="anterior">&#x276E;</span>
+                    <h2 id="mesAno"></h2>
+                    <span id="proximo">&#x276F;</span>
+                </div>
+                <div class="dias" id="dias"></div>
+                <div id="compromisso" class="compromisso"></div>
+
+            </div>
+
+            <div id="botao_div_agenda">
+                <button onclick="adicionar()" id="button_mais"><img src="./assents/simple-line-icons_plus.png" class="img-mais"
+                        alt=""></button>
+            </div>
+
+             <form id="AgendaForm">
+                <div class="cadastro_form">
+                    <div id="imgs_form">
+                        <h2>Informações:</h2>
+                        <img src="assents/x_branco.png" alt="" id="img-form-x" onclick="fecharForm()">
+                    </div>
+                    
+                    <input type="text" id="nome" name="nome" required placeholder="Nome">
+                    <input type="date" id="nome" name="nome" required placeholder="DD/DD/DDDD" >
+                    <input type="text" name="horario" id="horario" placeholder="Horário">
+                    <input type="text" id="descricao" name="descricao" required placeholder="Descrição">
+
+                    <h2>Aviso:</h2>
+                    <input type="date" id="nome" name="nome" required placeholder="DD/DD/DDDD" >
+                    <input type="text" name="horario" id="horario" placeholder="Horário">
+
+                    <div id="imgs_form">
+                        <button><img src="assents/lixo.png" alt="" id="img-form"></button>
+                        <button><img src="assents/salvar.png" alt="" id="img-form" onclick="adicionar()"></button>
+                    </div>
+                </div>
+            </form> 
+
+            
+            
+        </div>
+
+        <footer>
+            <a href="./blocoDeNotas.html"><img src="./assents/bloco_de_notas.png" alt="" class="img-icones"
+                    id="img-redirecionar"></a>
+            <img src="./assents/conteudos.png" alt="" class="img-icones">
+            <img src="./assents/mapa.png" alt="" class="img-icones">
+            <img src="./assents/mensagem.png" alt="" class="img-icones">
+            <a href="./principal.html"><img src="./assents/Component 13.png" alt="" class="img-icones"
+                    id="img-redirecionar"></a>
+
+        </footer>
+
+    </div>
+</body>
+<script src="./js/agenda/agenda.js"></script>
+
+</html>

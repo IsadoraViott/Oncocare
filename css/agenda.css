@@ -1,0 +1,142 @@
+.calendario {
+  margin-top: 5%;
+  text-align: center;
+  color: #f48fb1;
+  width: 100%;
+  height: 45%;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-weight: bold;
+}
+
+.dias {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin-top: 5%;
+}
+
+.dia {
+  padding: 8px 0;
+  border-radius: 20px;
+  transition: background 0.3s;
+  font-size: x-large;
+}
+
+.dia:hover {
+  background: #ffe0eb;
+}
+
+.hoje {
+  background: #f8bbd0;
+  color: white;
+}
+
+#mesAno{
+  color: #f48fb1;
+}
+
+/* formulario cadastro */
+
+
+
+form {
+    position: absolute;
+    visibility: hidden;
+    top: 25%;
+    width: 14%; 
+    margin: 20px auto;
+    padding: 1%;
+    background-color: #FBC0C0;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+    width: 92%;
+    padding: 10px;
+    margin-top: 8px;
+    background-color: #ffff;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+    transition: border 0.3s;
+    color: #FB6C90;
+    letter-spacing: 3px;
+    font-weight: 100;
+    margin-bottom: 3%;
+}
+
+::placeholder{
+  color: #FB6C90;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+}
+
+button{
+  background-color: #f8bbd0;
+}
+a{
+    text-decoration: none;
+}
+
+#img-form{
+  width: 70%;
+}
+
+#img-form-x{
+  width: 10%;
+}
+
+#imgs_form{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#button_mais{
+  background-color: #ffffff;
+}
+
+#botao_div_agenda{
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  margin-right: 1%;
+  margin-top: 50%;
+}
+
+
+
+.compromisso {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.compromissos_conteudo{
+  background-color: #f8bbd0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
+  width: 90%;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px #ccc;
+}
+
+#lapis_editar{
+  width: 10%;
+}

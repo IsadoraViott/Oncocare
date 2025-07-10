@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.julius-sans-one-regular {
+    font-family: "Julius Sans One", sans-serif;
+    font-style: normal;
+  }
+  
+/* body   */
+
+body{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 5%; */
+}
+
+/* tela  */
+
+.tela{
+    background-color: #FB6C90;
+    width: 360px;
+    height: 760px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-bottom: 5%; */
+    
+}
+
+.oncocare{
+    margin-bottom: 10%;
+}
+
+.welcome{
+    margin-top: 30%;
+}
+
+/* fontes  */
+
+h1{
+    color: #ffff;
+    letter-spacing: 3px;
+    font-size: 45px;
+    font-weight: 100;
+}
+
+h2{
+    color: #ffff;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+
+h3{
+    color: #ffff;
+    letter-spacing: 3px;
+    font-weight: 200;
+}
+
+/* flor  */
+
+.flor{
+    margin-left: 66%;
+}
+
+/* botao  */
+
+.botao{
+    margin-top: 5%;
+    margin-bottom: 20%;
+}
+
+/* formulario cadastro */
+
+
+
+form {
+    width: 80%;
+    margin: 20px auto;
+    padding: 3%;
+    background-color: #ffff;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 92%;
+    padding: 10px;
+    margin-top: 8px;
+    background-color: #FBC0C0;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+    transition: border 0.3s;
+    color: #ffff;
+    letter-spacing: 3px;
+    font-weight: 100;
+    margin-bottom: 3%;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 2%;
+    background-color: #FBC0C0;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    line-break: anywhere;
+}
+
+button:hover {
+    background-color: #FBC0C0;
+    transform: scale(1.02);
+}
+
+label{
+    color: #FB6C90;
+    letter-spacing: 3px;
+    font-weight: 300;
+    font-size: large;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* form login da conta */
+
+.cadastro-button{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
